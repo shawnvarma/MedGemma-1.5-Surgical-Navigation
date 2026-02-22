@@ -1,0 +1,73 @@
+# Local experiments and iteration (not for submission)
+local_files_for_me/
+
+# Claude Code local settings
+.claude/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files (keep out of repo)
+*.nii
+*.nii.gz
+# Exception: sample scan and bundled atlas included for reviewers
+!Navigation_Assistant/data/*.nii
+!Navigation_Assistant/data/atlas/*.nii.gz
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+# Exception: bundled LoRA adapters for reviewers
+!Navigation_Assistant/checkpoints/**/*.safetensors
+
+# Model weights and checkpoints
+checkpoints/
+!Navigation_Assistant/checkpoints/
+models/
+weights/
+
+# Logs
+*.log
+logs/
+runs/
+wandb/
+
+# Data directories (referenced but not committed)
+data/
+!Navigation_Assistant/data/
+datasets/

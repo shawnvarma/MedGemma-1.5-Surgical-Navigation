@@ -1,0 +1,1 @@
+Navigation_Assistant/checkpoints/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
