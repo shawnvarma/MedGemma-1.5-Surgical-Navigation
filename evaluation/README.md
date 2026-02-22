@@ -1,13 +1,12 @@
-# Evaluation: Reasoning Distillation
+# Evaluation: Training and Evaluation Scripts
 
-Scripts for the reasoning distillation experiment described in the main
-README.  A Gemini 3 Flash teacher generates grounded surgical reasoning
-traces; a LoRA adapter fine-tunes MedGemma 1.5 4B to reproduce them.
+Scripts for both experiments described in the main README.
 
 ## Scripts
 
 | Script | Purpose |
 |--------|---------|
+| `train_tissue_classification.py` | LoRA fine-tune MedGemma for binary tissue classification (TUMOR vs EDEMA) |
 | `generate_reasoning_traces.py` | Send FLAIR slices + GT measurements to Gemini, validate grounding, save traces |
 | `train_reasoning_lora.py` | LoRA fine-tune MedGemma on the grounded traces |
 | `eval_reasoning.py` | Compare Base vs Distilled vs Teacher on held-out patients |
