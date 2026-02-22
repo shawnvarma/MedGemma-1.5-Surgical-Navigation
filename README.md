@@ -45,10 +45,6 @@ Gemini 3 Flash was used to generate reasoning traces over 5 point trajectories w
 
 See [`evaluation/`](evaluation/) for scripts and full results.
 
-## Links
-
-- **Live demo:** https://huggingface.co/spaces/Summicron50mm/medgemma-surgical-nav
-
 ## Repository Structure
 
 ```
