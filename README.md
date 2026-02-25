@@ -4,6 +4,8 @@ Submission for the [MedGemma Impact Challenge](https://www.kaggle.com/competitio
 
 **Video:** [3-minute demo on YouTube](https://www.youtube.com/watch?v=yErP1TeWgu0)
 
+Hugging Face weights https://huggingface.co/Summicron50mm/medgemma-surgical-nav
+
 ## Problem
 
 Small VLMs are capable of being deployed on operating room hardware but show hallucination risk in the clinical setting.
